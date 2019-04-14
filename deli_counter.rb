@@ -36,7 +36,7 @@ def now_serving(katz_deli)
   else 
     message = "Currently serving "
     person_serving = katz_deli.shift
-    puts person_serving.unshift(message)
+    currently_serving = person_serving.unshift(message).join
   end
 end
   
