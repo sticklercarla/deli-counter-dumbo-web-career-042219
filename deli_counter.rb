@@ -4,5 +4,5 @@ katz_deli = []
 
 def line(katz_deli)
   other_deli = []
-  other_deli.push(katz_deli)
+  katz.deli.each_with_index
 end
