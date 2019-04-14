@@ -17,18 +17,17 @@ def line(katz_deli)
 end
   
 def take_a_number(katz_deli, name)
-  katz_deli.push(name)
+  
   other_deli = []
   if katz_deli.length == 0
-     katz_deli.each_with_index do |name, i|
-      other_deli.push("Welcome, #{name}. You are number #{i + 1} in line.")
-    end
-    puts "Welcome, #{name}. You are number #{i + 1} in line."
+     katz_deli.push(name)
+     puts "Welcome, #{name}. You are number 1 in line."
   else
+    katz_deli.push(name)
     katz_deli.each_with_index do |name, i|
       other_deli.push("Welcome, #{name}. You are number #{i + 1} in line.")
     end
-    other_deli.length
+    puts other_deli.last
   end
 end
   
