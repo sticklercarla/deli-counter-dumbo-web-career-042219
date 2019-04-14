@@ -9,4 +9,5 @@ def line(katz_deli)
     other_deli.push("The line is currently: #{i + 1}. #{name}")
   else
     "The line is currently empty."
+  end
 end
