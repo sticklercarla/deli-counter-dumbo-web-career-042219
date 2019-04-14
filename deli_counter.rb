@@ -18,6 +18,11 @@ end
   
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
+  other_deli = []
+  katz_deli.each_with_index do |name, i|
+    other_deli.push("Welcome, #{name}. You are number #{i + 1} in line.")
+  end
+  puts other_deli
 end
   
   
