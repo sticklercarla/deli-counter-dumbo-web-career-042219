@@ -27,7 +27,6 @@ def take_a_number(katz_deli, name)
     end
     katz_deli_line = other_deli.join
     puts katz_deli_line
-  else 
     
  end
 end
