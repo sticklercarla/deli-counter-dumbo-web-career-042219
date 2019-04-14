@@ -17,7 +17,6 @@ def line(katz_deli)
 end
   
 def take_a_number(katz_deli, name)
-  
   other_deli = []
   if katz_deli.length == 0
      katz_deli.push(name)
@@ -31,6 +30,14 @@ def take_a_number(katz_deli, name)
   end
 end
   
+def now_serving(katz_deli)
+  if katz_deli.length == 0 
+    puts "There is nobody waiting to be served!"
+  else 
+    person_serving = katz_deli.shift
+    puts person_serving
+  end
+end
   
   
 #   other_deli = "The current line is: "
