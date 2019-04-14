@@ -23,7 +23,7 @@ def take_a_number(katz_deli, name)
     other_deli.push("Welcome, #{name}. You are number #{i + 1} in line.")
   end
   katz_deli_line = other_deli.join
-  puts katz_deli_line
+  puts katz_deli_line(katz_deli_line.length)
 end
   
   
