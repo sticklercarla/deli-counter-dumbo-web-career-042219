@@ -9,7 +9,7 @@ def line(katz_deli)
     other_deli = []
     message = "The line is currently: "
     katz_deli.each_with_index do |name, i|
-    other_deli.push(katz_deli == katz_deli.length -1 ? "#{i + 1}. #{name}" : "#{i + 1}. #{name} ")
+    other_deli.push(katz_deli == katz_deli.length ? "#{i + 1}. #{name}" : "#{i + 1}. #{name} ")
   end
     katz_deli_line = other_deli.unshift(message).join
     puts katz_deli_line
