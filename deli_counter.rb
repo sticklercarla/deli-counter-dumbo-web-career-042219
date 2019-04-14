@@ -11,7 +11,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, i|
     other_deli.push("#{i + 1}. #{name}")
   end
-    puts other_deli.unshift(message)
+    katz_deli_line = other_deli.unshift(message).join
+    puts katz_deli_line
   end
 end
   
