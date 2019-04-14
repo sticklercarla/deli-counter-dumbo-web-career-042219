@@ -9,9 +9,9 @@ def line(katz_deli)
     other_deli = []
     message = "The line is currently: "
     katz_deli.each_with_index do |name, i|
-    other_deli.push("#{i + 1}. #{name}")
+    other_deli.push({i + 1} {name})
   end
-    puts other_deli << message
+    puts other_deli.unshift(message)
   end
 end
   
