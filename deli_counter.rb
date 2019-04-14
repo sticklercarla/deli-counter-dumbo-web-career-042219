@@ -3,5 +3,6 @@
 katz_deli = []
 
 def line(katz_deli)
-  puts "The line is currently empty."
+  other_deli = []
+  other_deli.push(katz_deli)
 end
