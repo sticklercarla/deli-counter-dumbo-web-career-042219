@@ -22,14 +22,14 @@ def take_a_number(katz_deli, name)
   if katz_deli.length == 0
      katz_deli.each_with_index do |name, i|
       other_deli.push("Welcome, #{name}. You are number #{i + 1} in line.")
+    end
     puts "Welcome, #{name}. You are number #{i + 1} in line."
   else
     katz_deli.each_with_index do |name, i|
       other_deli.push("Welcome, #{name}. You are number #{i + 1} in line.")
     end
     katz_deli_line.length
-    
- end
+  end
 end
   
   
